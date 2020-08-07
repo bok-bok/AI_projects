@@ -13,7 +13,7 @@ class Bot:
         self.State = State()
         self.states = []
         self.state_values = {}
-        self.actions = ["up", "down", "right", "down"]
+        self.actions = ["up", "down", "right", "left"]
         self.learning_rate = 0.2
         self.exp_line = 0.4
         for i in range(row):
